@@ -19,7 +19,7 @@ public class CustomAppWithCache
         Config cfg = new Config();
         HazelcastInstance instance = Hazelcast.newHazelcastInstance(cfg);
         Map<String,String> customers = instance.getMap("myCustomers");
-        customers.put("A100", "jenny Doe");
+        customers.put("A100", "Jenny Doe");
         customers.put("B80", "Silva Brown");
         customers.put("C60", "Ejik Polevoi");
         
