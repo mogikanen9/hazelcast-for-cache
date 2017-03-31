@@ -3,12 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mogikanensoftware.cache</groupId>
-	<artifactId>simple-cache-hz</artifactId>
+	<artifactId>hazelcats-for-cache</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
-	<name>simple-cache-hz</name>
-	<url>http://maven.apache.org</url>
+	<modules>
+		<module>multi-node-app</module>
+		<module>simple-cache-hz</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +35,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -46,4 +49,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
