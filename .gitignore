@@ -16,3 +16,9 @@ simple-cache/simple-cache-hz/.classpath
 simple-cache/simple-cache-hz/.project
 
 *.prefs
+
+.project
+
+multi-node-app/.classpath
+
+simple-cache-hz/.classpath
