@@ -10,6 +10,7 @@
 	<modules>
 		<module>multi-node-app</module>
 		<module>simple-cache-hz</module>
+		<module>misc-collections</module>
 	</modules>
 
 	<properties>

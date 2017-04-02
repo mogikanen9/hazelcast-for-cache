@@ -24,3 +24,5 @@ multi-node-app/.classpath
 simple-cache-hz/.classpath
 
 multi-node-app/.settings/org.eclipse.wst.common.project.facet.core.xml
+
+misc-collections/.classpath
