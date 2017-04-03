@@ -7,10 +7,7 @@
 		<name>mycluster</name>
 		<password>pwd</password>
 	</group>
-	<list name="emloyees">
 	
-	</list>
-
 	<network>
 		<join>
 			<multicast enabled="true" />
