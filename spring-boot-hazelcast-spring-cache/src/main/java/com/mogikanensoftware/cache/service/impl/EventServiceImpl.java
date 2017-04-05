@@ -20,7 +20,7 @@ public class EventServiceImpl implements EventService {
 	public Map<String, Event> getAll() {
 		// simulate load
 		try {
-			System.out.println("loading data");
+			System.out.println("loading data...");
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

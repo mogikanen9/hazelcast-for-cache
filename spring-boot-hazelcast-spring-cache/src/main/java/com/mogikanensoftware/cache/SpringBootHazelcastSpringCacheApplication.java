@@ -9,4 +9,5 @@ public class SpringBootHazelcastSpringCacheApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootHazelcastSpringCacheApplication.class, args);
 	}
+	
 }
