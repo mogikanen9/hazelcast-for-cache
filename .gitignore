@@ -26,3 +26,9 @@ simple-cache-hz/.classpath
 multi-node-app/.settings/org.eclipse.wst.common.project.facet.core.xml
 
 misc-collections/.classpath
+
+spring-boot-hazelcast-spring-cache/.mvn/wrapper/maven-wrapper.properties
+
+spring-boot-hazelcast-spring-cache/mvnw
+
+*.cmd
