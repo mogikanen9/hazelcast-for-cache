@@ -32,3 +32,7 @@ spring-boot-hazelcast-spring-cache/.mvn/wrapper/maven-wrapper.properties
 spring-boot-hazelcast-spring-cache/mvnw
 
 *.cmd
+
+spring-boot-hazelcast-jcache/mvnw
+
+spring-boot-hazelcast-jcache/.mvn/wrapper/maven-wrapper.properties
