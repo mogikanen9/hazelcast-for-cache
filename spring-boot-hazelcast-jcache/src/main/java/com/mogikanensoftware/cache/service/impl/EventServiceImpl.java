@@ -2,7 +2,6 @@ package com.mogikanensoftware.cache.service.impl;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Optional;
 import java.util.function.Predicate;
 
 import org.springframework.stereotype.Component;
@@ -14,9 +13,9 @@ import com.mogikanensoftware.cache.service.EventService;
 public class EventServiceImpl implements EventService {
 
 	@Override
-	public Optional<Event> getById(final String eventId) {
+	public Event getById(final String eventId) {
 		Predicate<Event> eventComparePredicate = e -> e.getEventId().equalsIgnoreCase(eventId);
-		return this.getAll().stream().filter(eventComparePredicate).findFirst();
+		return this.getAll().stream().filter(eventComparePredicate).findFirst().get();
 	}
 
 	@Override

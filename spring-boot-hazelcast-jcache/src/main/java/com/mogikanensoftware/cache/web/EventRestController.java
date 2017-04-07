@@ -1,7 +1,6 @@
 package com.mogikanensoftware.cache.web;
 
 import java.util.Collection;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,11 +30,6 @@ public class EventRestController {
 
 	@RequestMapping(method = RequestMethod.GET, path = "/{eventId}")
 	public Event findById(@PathVariable String eventId) {
-		Optional<Event> result = eventService.getById(eventId);
-		if (result.isPresent()) {
-			return result.get();
-		} else {
-			return null;
-		}
+		return eventService.getById(eventId);
 	}
 }

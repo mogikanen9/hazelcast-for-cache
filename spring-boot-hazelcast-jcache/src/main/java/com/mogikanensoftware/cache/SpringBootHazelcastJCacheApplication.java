@@ -12,9 +12,9 @@ import org.springframework.cache.annotation.EnableCaching;
         HazelcastAutoConfiguration.class
 })
 @EnableCaching
-public class SpringBootHazelcastJcacheApplication {
+public class SpringBootHazelcastJCacheApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootHazelcastJcacheApplication.class, args);
+		SpringApplication.run(SpringBootHazelcastJCacheApplication.class, args);
 	}
 }
