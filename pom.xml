@@ -11,6 +11,8 @@
 		<module>multi-node-app</module>
 		<module>simple-cache-hz</module>
 		<module>misc-collections</module>
+		<module>executor-service</module>
+		
 	</modules>
 
 	<properties>
