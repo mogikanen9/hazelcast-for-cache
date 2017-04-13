@@ -1,9 +1,9 @@
-package com.mogikanensoftware.cache.executorservice;
+package com.mogikanensoftware.cache.executorservice.basic;
 
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.core.IExecutorService;
-import com.mogikanensoftware.cache.executorservice.task.EchoTask;
+import com.mogikanensoftware.cache.executorservice.basic.task.EchoTask;
 
 /**
  * Hello world!

@@ -4,7 +4,7 @@
 	xmlns="http://www.hazelcast.com/schema/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<executor-service name="exec">
-		<pool-size>5</pool-size>
+		<pool-size>2</pool-size>
 	</executor-service>
 
 </hazelcast>

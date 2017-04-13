@@ -1,4 +1,4 @@
-package com.mogikanensoftware.cache.executorservice;
+package com.mogikanensoftware.cache.executorservice.basic;
 
 import com.hazelcast.core.Hazelcast;
 

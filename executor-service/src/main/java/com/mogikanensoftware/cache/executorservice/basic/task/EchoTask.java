@@ -1,4 +1,4 @@
-package com.mogikanensoftware.cache.executorservice.task;
+package com.mogikanensoftware.cache.executorservice.basic.task;
 
 import java.io.Serializable;
 
