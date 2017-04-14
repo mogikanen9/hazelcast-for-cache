@@ -36,3 +36,11 @@ spring-boot-hazelcast-spring-cache/mvnw
 spring-boot-hazelcast-jcache/mvnw
 
 spring-boot-hazelcast-jcache/.mvn/wrapper/maven-wrapper.properties
+
+distibuted-topic/target/classes/META-INF/MANIFEST.MF
+
+distibuted-topic/target/classes/META-INF/maven/com.mogikanensoftware.cache/distributed-topic/pom.properties
+
+distibuted-topic/target/classes/META-INF/maven/com.mogikanensoftware.cache/distributed-topic/pom.xml
+
+distibuted-topic/.classpath
