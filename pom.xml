@@ -12,6 +12,7 @@
 		<module>simple-cache-hz</module>
 		<module>misc-collections</module>
 		<module>executor-service</module>
+		<module>distributed-topic</module>
 		
 	</modules>
 
